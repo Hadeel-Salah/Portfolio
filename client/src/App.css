@@ -13,7 +13,7 @@ padding: 0;
 }
 body
 {
-font-family: 'Raleway';
+font-family: sans-serif;
 }
 .App
 {
@@ -21,10 +21,29 @@ display: flex;
 width: 100vw;
 min-height: 100vh;
 }
-/* .condiv class is for the right side content container*/
 .condiv
 {
-padding: 100px ;
+padding: 270px;
 background-color: #f4f5f9;
-flex:var(--condiv-flex);
+}
+
+nav
+{
+padding:90px 45px;
+background: linear-gradient(180deg, rgb(24, 26, 28)50%, rgba(132,124,252,1) 80%);
+}
+nav ul
+{
+  text-align: center;
+  list-style-type: none;
+  color: white !important;
+
+}
+nav ul li
+{
+  margin:40px;
+}
+.active
+{
+font-weight: bolder;
 }
