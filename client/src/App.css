@@ -1,49 +1,80 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
 :root{
---sidebar-flex:1.5;
---condiv-flex:6;
---fontsize-p:1.2rem;
---fontsize-nav:1.6rem;
---typing-font:3rem;
-}
-*
-{
-margin:0;
-padding: 0;
-}
-body
-{
-font-family: sans-serif;
-}
-.App
-{
-display: flex;
-width: 100vw;
-min-height: 100vh;
-}
-.condiv
-{
-padding: 270px;
-background-color: #f4f5f9;
+  --sidebar-flex:1.5;
+  --condiv-flex:6;
+  --fontsize-p:1.2rem;
+  --fontsize-nav:1.6rem;
+  --typing-font:3rem;
 }
 
-nav
-{
-padding:90px 45px;
-background: linear-gradient(180deg, rgb(24, 26, 28)50%, rgba(132,124,252,1) 80%);
+body{
+  font-family: sans-serif;
 }
-nav ul
-{
+.App{
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+}
+.condiv{
+  background-color: #f4f5f9;
+  width: 100%;
+  height: auto;
+}
+
+nav{
+  padding:90px 45px;
+  background: linear-gradient(180deg, rgb(24, 26, 28)50%, rgba(132,124,252,1) 80%);
+  }
+nav ul{
   text-align: center;
-   list-style: none;
+  list-style: none;
   color: white !important;
+}
+nav ul li{
+  margin:10vh;
+}
+a:active{
+  font-weight: bolder;
+  color: blueviolet;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
-nav ul li
-{
-  margin:40px;
+.condiv > .allSections{
+  position: relative;  
+  top: 200px;
+  text-align: left;
 }
-.active
-{
-font-weight: bolder;
+.condiv > .allSections h1{
+  color: rgb(125, 6, 180);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+}
+.condiv > .allSections h1, .condiv > .allSections p, .condiv > .allSections h6{
+  margin-left: 40px;
+  font-weight: 1000;
+  font-family: 'Times New Roman', Times, serif;
+}
+.condiv > .allSections p, .condiv > .allSections h6{
+  font-size: 15px;
+}
+.condiv > .allSections ul li{
+  list-style: none;
+  font-weight: 1000;
+  font-family: 'Times New Roman', Times, serif;
+
+
+}
+.condiv > .allSections h3, .condiv > .allSections h4{
+  text-align: center;
+}
+.condiv > .allSections h3{
+  color: blueviolet;
+  font-weight: 1000;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
 }
