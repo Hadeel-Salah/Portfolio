@@ -6,7 +6,7 @@ function Navitem (props) {
             <li id={props.item}>
                 <Link to={props.tolink} onClick={props.activity.bind(this,props.item)}>{props.item}</Link>
             </li>
-                    )
+            )
             }
         
         
