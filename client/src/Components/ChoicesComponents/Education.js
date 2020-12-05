@@ -3,20 +3,18 @@ class Education extends Component {
     render() {
         return (
             <div className="condiv">
-            <h1 className="s">About Me</h1>
-            <h4>Education Section</h4>
-            <p>
-                Example Example Example Example Example Example                     type your Education here
-                     type your Education here
-                     type your Education here
-                     type your Education here
-                     type your Education here
-                     type your Education here
-                     type your Education here
-                     type your Education here
-                     type your Education here
-
-                </p>
+                <div className="allSections">
+                    <h1 className="s">Education</h1>
+                    <p>
+                    <h6>
+                        Al Azhar Unversity - Computer System Engineering
+                    </h6>
+                    </p>
+                    <h1> Skills:</h1>
+                    <h6>  
+                        HTML5, CSS3, JS, React, Redux, Postgresql, Firebase,Bootstrap, Python, Express and Node.js
+                    </h6>
+                </div>
 
             </div>
 )

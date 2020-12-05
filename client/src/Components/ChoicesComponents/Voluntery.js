@@ -3,20 +3,28 @@ class Voluntery extends Component{
     constructor(props){
         super(props);
         this.state ={
-            places : ['Example1', 'Example2','Example3','Example4']
+            places : [
+                'Desginer at Google Developer Student Clubs - DSC Al-Azhar Gaza',
+                'Technical Writer at Better Programming ',
+                'Front-End Developer at Mishkah',
+                'Technical Writer at Analytics Vidhya'
+            ]
         }
     }
     render() {
         return(
             <div className="condiv">
-                <h1 className="">Voluntery work</h1>
-                <ul>
-                   {this.state.places.map((place)=>{
-                        return <li>{place}</li>
-                   }
-                   
-                   )} 
-                </ul>
+               <div className="allSections">
+                    <h1>Voluntery Section:</h1>
+                    <ul>
+                        {this.state.places.map((place)=>{
+                                return <div>
+                                            <h6> {place}</h6>
+                                        </div>
+                        }
+                        )} 
+                    </ul>
+               </div>
              </div>
     )
 
