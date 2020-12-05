@@ -3,7 +3,7 @@ import './App.css';
 import {HashRouter as Router, Route} from 'react-router-dom'
 import Navbar from './Components/DisplayingChoicesComponents/Navbar';
 import Home from './Components/ChoicesComponents/Home';
-import About from './Components/ChoicesComponents/About';
+import Experience from './Components/ChoicesComponents/Experience';
 import Education from './Components/ChoicesComponents/Education';
 import Voluntery from './Components/ChoicesComponents/Voluntery';
 
@@ -17,8 +17,8 @@ function App() {
       <Route exact path="/">
         <Home />
     </Route>
-    <Route path="/about">
-       <About />
+    <Route path="/experience">
+       <Experience />
     </Route>
     <Route path="/education">
        <Education />
